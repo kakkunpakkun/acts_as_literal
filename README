@@ -1,0 +1,1 @@
+Changes the model's to_param method to return #{id}-#{name}. Though url would be changed like "model/1" to "model/1-name".

@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["kp"]
   s.email       = ["kakkunpakkun@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Makes your model's to_param methods to return id with name.}
+  s.description = %q{Changes the model's to_param method to return #{id}-#{name}. Though url would be changed like "model/1" to "model/1-name".}
 
   s.rubyforge_project = "acts_as_literal"
 
